@@ -1,7 +1,7 @@
 {
     "name": "varp/yii2-seo",
     "type": "yii2-extension",
-    "description": "Seo",
+    "description": "Fork from aquy/yii2-seo with PHP 7.2 support",
     "keywords": [
         "yii2",
         "seo"
