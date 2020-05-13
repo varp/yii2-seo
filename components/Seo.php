@@ -1,8 +1,8 @@
 <?php
 
-namespace aquy\seo\components;
+namespace varp\seo\components;
 
-use aquy\seo\module\models\SeoPage;
+use varp\seo\module\models\SeoPage;
 use Yii;
 use yii\base\BaseObject;
 use yii\helpers\ArrayHelper;

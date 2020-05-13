@@ -1,6 +1,6 @@
 <?php
 
-namespace aquy\seo\module\models;
+namespace varp\seo\module\models;
 
 use Yii;
 use yii\helpers\ArrayHelper;

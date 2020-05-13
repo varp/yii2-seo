@@ -1,16 +1,16 @@
 <?php
 
-namespace aquy\seo\module\controllers;
+namespace varp\seo\module\controllers;
 
+use varp\seo\module\models\SeoMeta;
+use varp\seo\module\models\SeoPage;
 use Yii;
-use aquy\seo\module\models\SeoMeta;
-use aquy\seo\module\models\SeoPage;
 use yii\data\ActiveDataProvider;
 use yii\filters\AccessControl;
+use yii\filters\VerbFilter;
 use yii\helpers\VarDumper;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\filters\VerbFilter;
 
 /**
  * MetaController implements the CRUD actions for SeoMeta model.

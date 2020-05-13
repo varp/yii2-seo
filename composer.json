@@ -1,17 +1,24 @@
 {
-    "name": "aquy/yii2-seo",
+    "name": "varp/yii2-seo",
     "type": "yii2-extension",
     "description": "Seo",
-    "keywords": ["yii2", "seo"],
+    "keywords": [
+        "yii2",
+        "seo"
+    ],
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/aquy/yii2-seo/issues",
-        "source": "https://github.com/aquy/yii2-seo"
+        "issues": "https://github.com/varp/yii2-seo/issues",
+        "source": "https://github.com/varp/yii2-seo"
     },
     "authors": [
         {
             "name": "Алексей Лихачев",
-            "email": "aquy@yandex.ru"
+            "email": "varp@yandex.ru"
+        },
+        {
+            "name": "Вардан Погосян",
+            "email": "me@vardan.pro"
         }
     ],
     "require": {
@@ -19,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "aquy\\seo\\": ""
+            "varp\\seo\\": ""
         }
     }
 }

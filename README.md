@@ -10,13 +10,13 @@ Yii2 Seo
 Запустить
 
 ```
-php composer.phar require --prefer-dist aquy/yii2-seo "*"
+php composer.phar require --prefer-dist varp/yii2-seo "*"
 ```
 
 или добавить
 
 ```
-"aquy/yii2-seo": "*"
+"varp/yii2-seo": "*"
 ```
 
 в раздел require ващего `composer.json`.
@@ -24,19 +24,19 @@ php composer.phar require --prefer-dist aquy/yii2-seo "*"
 После установки выполнить миграцию
 
 ```php
-./yii migrate/up --migrationPath=@vendor/aquy/yii2-seo/migrations
+./yii migrate/up --migrationPath=@vendor/varp/yii2-seo/migrations
 ```
 
 для того, чтобы создать таблицу в базе данных, если вы удалили данное расширение, то стоит удалять и миграцию, для этого выполните
 
 ```php
-./yii migrate/down --migrationPath=@vendor/aquy/yii2-seo/migrations
+./yii migrate/down --migrationPath=@vendor/varp/yii2-seo/migrations
 ```
 
 а уже после этого удалите строку
 
 ```
-"aquy/yii2-seo": "*"
+"varp/yii2-seo": "*"
 ```
 
 из раздела require ващего `composer.json` и выполните
@@ -52,7 +52,7 @@ php composer.phar update
 
 ```
 'seo' => [
-    'class' => 'aquy\seo\module\Meta'
+    'class' => 'varp\seo\module\Meta'
 ],
 ```
 
@@ -60,7 +60,7 @@ php composer.phar update
 
 ```
 'seo' => [
-    'class' => 'aquy\seo\components\Seo'
+    'class' => 'varp\seo\components\Seo'
 ],
 ```
 
