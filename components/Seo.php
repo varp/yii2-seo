@@ -2,17 +2,17 @@
 
 namespace aquy\seo\components;
 
-use aquy\seo\module\models\SeoMeta;
 use aquy\seo\module\models\SeoPage;
 use Yii;
+use yii\base\BaseObject;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\Controller;
 use yii\web\View;
-use yii\base\Object;
 
-class Seo extends Object {
+class Seo extends BaseObject
+{
 
     /**
      * @var array дублируем из юрл мэнеджера пути с доступными параметрами
@@ -159,4 +159,4 @@ class Seo extends Object {
         return false;
     }
 
-} 
+}
